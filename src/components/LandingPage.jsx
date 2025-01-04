@@ -9,13 +9,13 @@ return (
                 return (
                 <div className='masker'>
                     <div className='w-fit flex items-center'>
-                        {index===1 ? (<div className='mr-5 w-[8vw] h-[5vw] rounded-md bg-red-500 relative top-[0.5vw]'></div>):"" }
-                <h1 className="uppercase text-[7.5vw] leading-[6.5vw] tracking-tighter font-FoundersGrotesk font-medium ">{item}</h1>
+                        {index===1 ? (<div className='mr-5 w-[8vw] h-[5vw] rounded-md bg-green-500 relative top-[0.5vw]'></div>):"" }
+                <h1 className="uppercase text-[7.5vw] leading-[6.5vw] tracking-tighter font-FoundersGrotesk font-bold ">{item}</h1>
             </div>
             </div>
             )})}
         </div>
-        <div className="border-t-2 border-zinc-700 mt-32 flex justify-between items-center py-5 px-20">
+        <div className="border-t-2 border-zinc-700 mt-20 flex justify-between items-center py-5 px-20">
             {[
                 "For public and private companies",
                 "From the first pitcht to IPO",
